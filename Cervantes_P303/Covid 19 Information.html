@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<h1>COVID-19 Contact Information</h1>
+	</head>
+	<body>
+		
+		
+		<p>
+			Here's the information of the list for COVID 19.
+		</p>
+
+
+		<table>
+			<thead>
+				<tr>
+					<th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Address</th>
+                    <th>Contact Number</th>
+                    <th>Temperature</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Peter</td>
+    <td>Griffin</td>
+    <td>32 Octard Street</td>
+    <td>09125671289</td>
+    <td>36.7</td>
+  </tr>
+  
+  <tr>
+    <td>Samantha</td>
+    <td>Griffin</td>
+    <td>56 Rockford Hills</td>
+    <td>09275918395</td>
+     <td>36.2</td>
+     </tr>
+     
+  <tr>
+    <td>John</td>
+    <td>Davis</td>
+    <td>88 1st Street</td>
+    <td>09892137136</td>
+    <td>36.9</td>
+  </tr>
+ 
+  <tr>
+    <td>Louis</td>
+    <td>Williams</td>
+    <td>65 Grove Street</td>
+    <td>09785610512</td>
+    <td>36.1</td>
+  </tr>
+ 
+  
+  <tr>
+    <td>Richard</td>
+    <td>De Santa</td>
+    <td>14 Rockford Hills</td>
+    <td>09175249612</td>
+    <td>36.3</td>
+  </tr>
+				</tr>
+			</tbody>
+		</table>
+
+		<br>
+		<hr>
+		<br>
+
+		
+		<form action="process.php" method="POST">
+			<div>
+				<label>First Name: </label>
+				<input type="text" name="firstName" placeholder="Enter first name">
+			</div>
+			<br>
+			<div>
+				<label>Last Name: </label>
+				<input type="text" name="lastName">
+			</div>
+			<br>
+			<div>
+				<label>Address: </label>
+				<input type="address" name="email">
+			</div>
+			<br>
+			<div>
+				<label>Contact Number</label>
+				<textarea name="contact number"></textarea>
+			</div>
+			<br>
+			<div>
+				<label>Gender: </label>
+				<select name="age">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+			<br>
+				<div>
+					<label>Age:</label>
+					<input type="number" name="age" value="20">
+				</div>
+				<br>
+				<div>
+					<label>Birthday:</label>
+					<input type="date" name="birthday">
+				</div>
+				<br>
+				<input type="submit" name="submit" value="Submit">
+		</form>
+
+		
+		<button>Click Here If You're Done</button>
+
+		
+	</body>
+</html>
